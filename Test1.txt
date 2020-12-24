@@ -1,0 +1,53 @@
+Script started on Mon 14 Sep 2020 01:06:29 PM PDT
+]0;lkrell@empress:/cs/cs421LK/CS421Progs/HW2B_Scanners/Prog1[?1034h[lkrell@empress Prog1]$ ./fa.out 
+Enter the input file name:fain_mytoken.txt
+hap
+.....Scanner was called...
+Word is:abbb
+Trying the mytoken machine...
+current state: 0
+character: a
+current state: 1
+character: b
+current state: 2
+character: b
+current state: 2
+character: b
+Type is:MYTOKEN
+.....Scanner was called...
+Word is:ab
+Trying the mytoken machine...
+current state: 0
+character: a
+current state: 1
+character: b
+Type is:MYTOKEN
+.....Scanner was called...
+Word is:aabb
+Trying the mytoken machine...
+current state: 0
+character: a
+current state: 1
+character: a
+I am stuck in state 1
+Lexical Error: The string is not in my language
+Type is:ERROR
+.....Scanner was called...
+Word is:bb
+Trying the mytoken machine...
+current state: 0
+character: b
+I am stuck in state 0
+Lexical Error: The string is not in my language
+Type is:ERROR
+.....Scanner was called...
+Word is:EOF
+Trying the mytoken machine...
+current state: 0
+character: E
+I am stuck in state 0
+Lexical Error: The string is not in my language
+]0;lkrell@empress:/cs/cs421LK/CS421Progs/HW2B_Scanners/Prog1[lkrell@empress Prog1]$ exit
+exit
+
+Script done on Mon 14 Sep 2020 01:06:45 PM PDT
