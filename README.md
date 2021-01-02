@@ -1,2 +1,2 @@
 # Scanner-One
-Made a scanner which validates whether given input is part of the Langugae we set.
+Made a scanner which validates whether given input is part of the Language we set.
